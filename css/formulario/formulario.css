@@ -1,0 +1,76 @@
+/* CONTENEDOR
+ --------------------*/
+#contenedor {
+	margin-top: 10px;
+
+	width: 350px;
+/*	width: 80%;*/
+}
+
+
+/* LOGO
+ --------------------*/
+#logo {
+	margin-bottom: 30px;
+	padding: 10px 20px;
+
+	background-color: white;
+	border-bottom: 10px solid orange;
+}
+
+#logo img {
+	width: 100%;
+}
+
+
+/* FORMULARIO
+ --------------------*/
+#formulario-contenedor {
+	padding: 15px 25px;
+}
+
+.campo {
+	margin-bottom: 15px;
+
+	width: 100%;
+}
+
+.align-left {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.campo-label {
+	margin-bottom: 2px;
+}
+
+.borde {
+	padding: 5px;
+	
+	border: 2px solid orange;
+	border-radius: 5px;
+}
+.input-texto {
+	padding: 5px;
+}
+
+.requerido {
+	color: red;
+}
+
+#genero, input[type=date], input[type=submit] {
+	padding: 5px 15px;
+
+	border: 0 none;
+	border-radius: 0px;
+}
+
+textarea {
+	resize: none;
+}
+
+.mailto {
+	color: orange;
+	text-decoration: underline;
+}

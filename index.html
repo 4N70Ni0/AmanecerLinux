@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Amanecer Linux</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Antonio Bañón Serrano">
+		<meta name="description" content="Página principal de Amanecer Linux">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="./css/fonts.css">
+		<link rel="stylesheet" href="./css/base.css">
+		<link rel="stylesheet" href="./css/animaciones.css">
+		<link rel="stylesheet" href="./css/paginas/classes.css">
+		<link rel="stylesheet" href="./css/paginas/pequenio.css">
+		<link rel="stylesheet" media="screen and (min-width: 576px)" href="./css/paginas/mediano.css">
+		<link rel="stylesheet" media="screen and (min-width: 992px)" href="./css/paginas/grande.css">
+		<link rel="shortcut icon" type="image/ico" href="./imagenes/logo/favicon_sinfondo.ico">
+		<!--
+	  <link rel="stylesheet" href="./css/comun.css">
+	  <link rel="stylesheet" href="./css/fonts.css">
+	  <link rel="stylesheet" href="./css/responsivo.css">
+	  <link rel="stylesheet" href="./css/index/clases.css">
+	  <link rel="stylesheet" href="./css/index/main.css">
+	  <link rel="stylesheet" href="./css/index/header.css">
+	  <link rel="stylesheet" href="./css/index/nav.css">
+	  <link rel="stylesheet" href="./css/index/aside.css">
+	  <link rel="stylesheet" href="./css/index/section.css">
+	  <link rel="stylesheet" href="./css/index/footer.css">
+		-->
+	</head>
+
+	<body>
+		<!-- MAIN -->
+		<main class="bg-blanco">
+
+			<!-- HEADER -->
+			<header id="header">
+
+				<figure>
+					<a href="">
+						<img class="width-100" src="./imagenes/logo/AL_logo_smaller.png" alt="Amanecer Linux" title="Amanecer Linux">
+					</a>
+				</figure>
+
+				<!-- buscador -->
+				<form id="buscar">
+					<input id="busqueda" type="text" placeholder="Buscar...">
+				</form>
+
+			</header>
+
+
+
+			<!-- NAV 
+		   Páginas que necesito -->
+		   <nav id="nav" class="bg-naranja">
+
+			   <article id="navLista">
+				   <div id="icono" class="icon"><i class="fa fa-bars chr-blanco hvr-naranja"></i></div>
+				   <a class="texto-centrado seleccionado" href=""><p class="styleTitulo">INICIO</p></a>
+				   <a class="texto-centrado btn-nav hvr-naranja" href="./html/videojuegos.html"><p class="styleTitulo">VIDEOJUEGOS</p></a>
+				   <a class="texto-centrado btn-nav hvr-naranja" href="./html/software.html"><p class="styleTitulo">SOFTWARE</p></a>
+				   <a class="texto-centrado btn-nav hvr-naranja" href="./html/videos.html"><p class="styleTitulo">VÍDEOS</p></a>
+				   <a class="texto-centrado btn-nav hvr-naranja" href="./html/formulario.html"><p class="styleTitulo">REGISTRARSE</p></a>
+			   </article>
+
+			   <article id="desplegable">
+				   <a class="bg-blanco" href=""><p class="styleTitulo chr-negro">INICIO</p></a>
+				   <a class="hvr-naranja" href="./html/videojuegos.html"><p class="styleTitulo">VIDEOJUEGOS</p></a>
+				   <a class="hvr-naranja" href="./html/software.html"><p class="styleTitulo">SOFTWARE</p></a>
+				   <a class="hvr-naranja" href="./html/videos.html"><p class="styleTitulo">VÍDEOS</p></a>
+				   <a class="hvr-naranja" href="./html/formulario.html"><p class="styleTitulo">REGISTRARSE</p></a>
+			   </article>
+
+			   <script src="./javascript/menuDesplegable.js"></script>
+
+		   </nav>
+
+
+
+		   <!-- ASIDE
+			Solamente lo escondo en el viewport pequeño -->
+			<aside id="aside">
+
+				<!-- Login -->
+				<section>
+					<form id="login" method="get" action="http://www.formular-chef.com/Formular-Chef.cgi">
+						<input type="hidden" name="recipient" value="antoniobanyon.alu@iespacomolla.es">
+						<input id="correo" class="borde input-texto" type="email" name="correoLogin" placeholder="Correo electrónico">
+						<input id="contrasena" class="borde input-texto" type="password" name="contrasenaLogin" placeholder="Contraseña">
+						<input class="bg-naranja chr-blanco hvr-naranja" type="submit" value="Iniciar sesión">
+					</form>
+				</section>
+
+
+				<!-- Noticias Populares Título -->
+				<article id="noticiasPopularesTitulo">
+					<h6 id="notPopTitulo" class="texto-centrado chr-blanco">NOTICIAS POPULARES</h6>
+				</article>
+
+
+				<!-- Noticias Populares -->
+				<section id="noticiasPopulares">
+
+					<!-- noticia -->
+					<article class="noticia">
+						<figure>
+							<a href="">
+								<img src="./imagenes/noticias/half-life2_aside_100x63.jpg" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">HALF-LIFE 3 SALDRÁ SOLO EN LINUX</a></h6>
+							<small>30 de octubre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+					<hr>
+
+					<!-- noticia -->
+					<article class="noticia">
+						<figure> 
+							<a href="">
+								<img src="./imagenes/noticias/windows7_aside_100x63.jpg" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">WINDOWS 7 SE QUEDA SIN SOPORTE</a></h6>
+							<small>7 de octubre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+					<hr>
+
+					<!-- noticia -->
+					<article class="noticia">
+						<figure> 
+							<a href="">
+								<img src="./imagenes/noticias/minecraft_aside_100x63.jpg" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">MINECRAFT DEJA SIN SOPORTE A WINDOWS 10</a></h6>
+							<small>25 de septiembre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+					<hr>
+
+					<!-- noticia -->
+					<article class="noticia">
+						<figure> 
+							<a href="">
+								<img src="./imagenes/noticias/windows98_aside_100x63.jpg" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">MICROSOFT ANUNCIA WINDOWS 98</a></h6>
+							<small>4 de septiembre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+					<hr>
+
+					<!-- noticia -->
+					<article class="noticia">
+						<figure> 
+							<a href="">
+								<img src="./imagenes/noticias/vim_aside_100x63.png" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">VIM 9</a></h6>
+							<small>2 de septiembre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+				</section>
+			</aside>
+
+
+
+			<!-- SECTION -->
+			<section id="section" class="col-centr-sb">
+
+				<!-- Slider -->
+				<section id="slider">
+
+					<article class="contenedor-slider">
+
+						<a class="puesto-slider" href="./html/videojuegos.html">
+							<img src="./imagenes/noticias/minecraft_slider.jpg" alt="">
+							<article class="chr-blanco textoRelevante">MINECRAFT DEJA SIN SOPORTE A W10</article>
+						</a>
+
+						<a class="puesto-slider" href="./html/software.html">
+							<img src="./imagenes/noticias/vim_slider.png" alt="">
+							<article class="chr-blanco textoRelevante">VIM 9</article>
+						</a>
+
+						<a class="puesto-slider" href="./html/videojuegos.html">
+							<img src="./imagenes/noticias/half-life2_slider.jpg" alt="">
+							<article class="chr-blanco textoRelevante">HALF-LIFE 3 SALDRÁ SOLO EN LINUX</article>
+						</a>
+
+						<a class="puesto-slider" href="./html/software.html">
+							<img src="./imagenes/noticias/windows7_slider.jpg" alt="">
+							<article class="chr-blanco textoRelevante">WINDOWS 7 SE QUEDA SIN SOPORTE</article>
+						</a>
+
+						<a class="puesto-slider" href="./html/software.html">
+							<img src="./imagenes/noticias/windows98_slider.jpg" alt="">
+							<article class="chr-blanco textoRelevante">MICROSOFT ANUNCIA WINDOWS 98</article>
+						</a>
+
+
+						<a id="anterior" class="chr-blanco bg-naranja hvr-naranja btn-numPag">&#10094;</a>
+						<a id="siguiente" class="chr-blanco bg-naranja hvr-naranja btn-numPag">&#10095;</a>
+					</article>
+
+					<script src="./javascript/slider.js"></script>
+				</section>
+
+
+				<!-- Artículos -->
+				<section id="articulos">
+					<section class="filaArticulos"><!--fila de artículos col-centr-sb-->
+
+						<!-- artítculo -->
+						<section class="articulo">
+							<a href="">
+								<figure class="centrado">
+									<img class="agrandar width-100" src="./imagenes/noticias/tetris_noticia.jpg" alt="noticia imagen">
+								</figure>
+							</a>
+							<article class="articuloTexto">
+								<h2><a class="enlace" href="">EL TETRIS SACARÁ UNA VERSIÓN CIRCULAR</a></h2>
+								<small>18 de abril, 2020</small>
+								<p>
+								Esto no es una broma de April Fools tardía.
+								La empresa EA, quien actualmente posee los derechos del nombre de TETRIS, ha decidido sacar una versión
+								donde cada pieza tendrá una forma redondeada. Aún no se ha explicado como se harán las líneas
+								pero de seguro que será a través de una mecánica nueva e innovadora. [...]
+								</p>
+							</article>
+							<a class="texto-centrado" href="">
+								<p class="seguirLeyendo btn-segLey bg-naranja hvr-naranja chr-blanco">Sigue leyendo &#10095;</p>
+							</a>
+						</section> <!-- final artículo -->
+
+						<!-- artículo -->
+						<section class="articulo">
+							<a class="width-100" href="">
+								<figure class="centrado">
+									<img class="agrandar width-100" src="./imagenes/noticias/java_noticia.jpg" alt="noticia imagen">
+								</figure>
+							</a>
+							<article class="articuloTexto">
+								<h2><a class="enlace" href="">BOBOS, EL PRIMER SISTEMA OPERATIVO HECHO COMPLETAMENTE EN JAVA</a></h2>
+								<small>13 de abril, 2020</small>
+								<p>
+								Así, como te lo cuento. Es el primer sistema operativo hecho completa y exclusivamente en Java.
+								En su repositorio de Github explican por qué decidieron hacerlo en este maravilloso lenguaje de
+								programación. Este nuevo sistema operativo no te permite hacer absolutamente nada porque como Java
+								no permite la programación a bajo nivel, no puede ser instalado sin que haya nada debajo. Es un muy
+								buen SO para dejarlo en algún lugar de tu disco duro cogiendo polvo. El principal desarrollador explica
+								esta decisión argumentando [...]
+								</p>
+							</article>
+							<a class="texto-centrado" href="">
+								<p class="seguirLeyendo btn-segLey bg-naranja hvr-naranja chr-blanco">Sigue leyendo &#10095;</p>
+							</a>
+						</section> <!-- final artículo -->
+
+					</section> <!--final fila de artículos-->
+
+					<section class="filaArticulos"><!--fila de artículos col-centr-sb-->
+
+						<!-- artículo -->
+						<section class="articulo">
+							<a href="">
+								<figure class="centrado">
+									<img class="agrandar width-100" src="./imagenes/noticias/alyx_noticia.jpg" alt="noticia imagen">
+								</figure>
+							</a>
+							<article class="articuloTexto">
+								<h2><a class="enlace" href="">HALF-LIFE: ALYX, CONSISTE EN METER HEADCRABS EN CUBOS</a></h2>
+								<small>25 de marzo, 2020</small>
+								<p>
+								No, no es Half-Life 3. Es el nuevó título de la saga de Half-Life, que, a diferencia del resto,
+								no se juega en PC ni en consola sino en VR. ¿Y que quiero decir con el título de esta noticia?
+								Pues que gracias a la libertad que el VR nos ofrece, muchos jugadores intentan en sus partidas
+								meter a los famosos cangrejitos chupa cabezas en cubos cuando estos saltan hacia ellos.
+								Un científico de la universidad de Harvard explica que esto se debe a [...]
+								</p>
+							</article>
+							<a class="texto-centrado" href="">
+								<p class="seguirLeyendo btn-segLey bg-naranja hvr-naranja chr-blanco">Sigue leyendo &#10095;</p>
+							</a>
+						</section> <!-- final artículo -->
+
+						<!-- artí­culo -->
+						<section class="articulo">
+							<a href="">
+								<figure class="centrado">
+									<img class="agrandar width-100" src="./imagenes/noticias/windows7_noticia.jpg" alt="noticia imagen">
+								</figure>
+							</a>
+							<article class="articuloTexto">
+								<h2><a class="enlace" href="">WINDOWS 7 SE QUEDA SIN SOPORTE</a></h2>
+								<small>7 de octubre, 2019</small>
+								<p>
+								Así lo ha anunciado Microsoft en la conferencia sobre el nuevo Windows 98.
+								Esta nueva decisión hará que grandes compañías tengan que gastar miles de euros
+								en actualizar sus sistemas a Windows 10. Esto puede provocar que [...]
+								</p>
+							</article>
+							<a class="texto-centrado" href="">
+								<p class="seguirLeyendo btn-segLey bg-naranja hvr-naranja chr-blanco">Sigue leyendo &#10095;</p>
+							</a>
+						</section> <!-- final artí­culo -->
+
+					</section> <!--final fila de artí­culos-->
+				</section> 
+
+				<section id="numPaginas">
+					<a class="texto-centrado" href="">
+						<p class="btn-numPag chr-blanco bg-naranja hvr-naranja">Anterior</p>
+					</a>
+					<a class="texto-centrado" href="">
+						<p class="btn-numPag chr-blanco bg-naranja hvr-naranja">1</p>
+					</a>
+					<a class="texto-centrado" href="">
+						<p class="btn-numPag chr-blanco bg-naranja hvr-naranja">2</p>
+					</a>
+					<a class="texto-centrado" href="">
+						<p class="btn-numPag chr-blanco bg-naranja hvr-naranja">3</p>
+					</a>
+					<p class="btn-numPag">...</p>
+					<a class="texto-centrado" href="">
+						<p class="btn-numPag chr-blanco bg-naranja hvr-naranja">Siguiente</p>
+					</a>
+				</section>
+			</section>
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer" class="bg-naranja col-centr-sb">
+
+				<!-- ARRIBA -->
+				<article>
+					<a class="centrado" href="">
+						<img id="flechaArriba" src="./imagenes/iconos/flecha_arriba.png" alt="volver arriba" title="Volver arriba">
+					</a>
+				</article>
+
+				<!-- REDES SOCIALES -->
+				<section id="rrss" class="">
+					<a href="https://www.facebook.com/" target="_blank">
+						<img src="./imagenes/rrss/facebook.png" alt="facebook" title="Facebook">
+					</a>
+
+					<a href="https://github.com/" target="_blank">
+						<img src="./imagenes/rrss/github.png" alt="github" title="Github">
+					</a>
+
+					<a href="https://www.instagram.com/" target="_blank">
+						<img src="./imagenes/rrss/instagram.png" alt="instagram" title="Instagram">
+					</a>
+
+					<a href="https://reddit.com" target="_blank">
+						<img src="./imagenes/rrss/reddit.png" alt="mastodon" title="Mastodon">
+					</a>
+
+					<a href="https://twitter.com/explore" target="_blank">
+						<img src="./imagenes/rrss/twitter.png" alt="twitter" title="Twitter">
+					</a>
+				</section>
+
+
+				<!-- ENLACES -->
+				<section id="enlaces" class="width-100">
+					<article class="texto-centrado"> 
+						<a class="enlace" href="">QUIENES SOMOS</a> 
+					</article>
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="">AVISO LEGAL</a> 
+					</article>
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="./html/licencia.html" target="_blank">LICENCIA</a> 
+					</article>
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="">POLÍTICA DE COOKIES</a> 
+					</article> 
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="./html/formulario.html">CONTACTO</a> 
+					</article>
+				</section>
+
+
+				<!-- copyright -->
+				<article class="chr-blanco">
+					<small>AMANECER LINUX © 2020</small>
+				</article>
+
+			</footer>
+
+		</main>
+	</body>
+</html>

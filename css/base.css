@@ -1,0 +1,18 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	background-image: url("../imagenes/background/mini-background.png");
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}

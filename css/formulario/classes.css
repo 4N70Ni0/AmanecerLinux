@@ -1,0 +1,60 @@
+/* Posición */
+.col-centr-sb {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.centrado {
+	display: flex;
+	justify-content: center;
+}
+
+.texto-centrado {
+	text-align: center;
+}
+
+.width-50 {
+	width: 50%;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+
+/* Color */
+.bg-naranja {
+	background-color: orange;
+}
+
+.bg-blanco {
+	background-color: white;
+}
+
+.chr-blanco {
+	color: white;
+}
+
+.chr-negro {
+	color: black;
+}
+
+
+/* Botones */
+.btn-segLey {
+	margin-top: 30px;
+	padding: 10px;
+}
+
+.btn-numPag {
+	margin: 5px;
+	padding: 10px;
+}
+
+
+/* Misc */
+.dsply-none {
+	display: none;
+}

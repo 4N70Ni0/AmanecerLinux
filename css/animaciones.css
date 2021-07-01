@@ -1,0 +1,105 @@
+/* Botones nav */
+a.btn-nav {
+	padding: 15px 10px;
+}
+a.hvr-naranja p {
+	color: white;
+}
+
+/* Botón seleccionado */
+a.seleccionado {
+	background-color: white;
+	padding: 15px 10px;
+}
+a.seleccionado p {
+	color: black;
+}
+
+/* Hovers */
+.hvr-naranja:hover {
+	background-color: #FAB57F;
+}
+.enlace:hover {
+	text-decoration: underline;
+}
+
+/* Botones */
+.btn-segLey, .btn-numPag {
+	border-radius: 10px;
+}
+
+.btn-segLey:hover {
+	transition-duration: .1s;
+	transition-timing-function: linear;
+	transition-delay: .1s;
+	transform: translate(10px);
+}
+
+/* Animaciones */
+#flechaArriba { /* Flecha hacia arriba */
+	transition: transform 1s ease-out;
+	-webkit-transition: transform 1s ease-out;
+	-moz-transition: transform 1s ease-out;
+}
+
+#flechaArriba:hover {
+	animation-name: rueda;
+	animation-duration: 1s;
+	transform: rotate(360deg);
+	-webkit-animation-name: rueda;
+	-webkit-animation-duration: 1s;
+	-webkit-transform: rotate(360deg);
+	-moz-animation-name: rueda;
+	-moz-animation-duration: 1s;
+	-moz-transform: rotate(360deg);
+}
+
+@keyframes rueda {
+	to { width: 70px; }
+}
+
+
+#header img { /* Logo */
+	transition: transform 1s ease-in;
+	-webkit-transition: transform 1s ease-in;
+	-moz-transition: transform 1s ease-in;
+}
+
+#header img:hover {
+	animation-name: logoAdentro;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: logoAdentro;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: logoAdentro;
+	-moz-animation-duration: 0.5s;
+	-moz-animation-iteration-count: infinite;
+}
+
+@keyframes logoAdentro {
+	to { width: 95%; }
+}
+
+
+#enlaces .enlace { /* Enlaces */
+	transition: transform 1s ease-out;
+	-webkit-transition: transform 1s ease-out;
+	-moz-transition: transform 1s ease-out;
+}
+
+#enlaces .enlace:hover {
+	animation-name: enlacesFuera;
+	animation-duration: 1s;
+	transform: skew(360deg);
+	-webkit-animation-name: enlacesFuera;
+	-webkit-animation-duration: 1s;
+	-webkit-transform: skew(360deg);
+	-moz-animation-name: enlacesFuera;
+	-moz-animation-duration: 1s;
+	-moz-transform: skew(360deg);
+}
+
+@keyframes enlacesFuera {
+	to { width: 5%; }
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario, Amanecer Linux</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Antonio Bañón Serrano">
+		<meta name="description" content="Formulario de Amanecer Linux">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="../css/fonts.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/animaciones.css">
+		<link rel="stylesheet" href="../css/fonts.css">
+		<link rel="stylesheet" href="../css/formulario/classes.css">
+		<link rel="stylesheet" href="../css/formulario/formulario.css">
+		<link rel="stylesheet" href="../css/formulario/pequenio.css">
+		<link rel="stylesheet" media="screen and (min-width: 576px)" href="../css/formulario/mediano.css">
+		<link rel="stylesheet" media="screen and (min-width: 992px)" href="../css/formulario/grande.css">
+		<link rel="shortcut icon" type="image/ico" href="../imagenes/logo/favicon_sinfondo.ico">
+	</head>
+
+	<body>
+		<!-- MAIN -->
+		<main class="bg-blanco">
+
+			<!-- HEADER -->
+			<header id="header">
+
+				<figure>
+					<a href="">
+						<img class="width-100" src="../imagenes/logo/AL_logo_smaller.png" alt="Amanecer Linux" title="Amanecer Linux">
+					</a>
+				</figure>
+
+				<!-- buscador -->
+				<form id="buscar">
+					<input id="busqueda" type="text" placeholder="Buscar...">
+				</form>
+
+			</header>
+
+
+
+			<!-- NAV 
+			Páginas que necesito -->
+			<nav id="nav" class="bg-naranja">
+
+				<article id="navLista">
+					<div id="icono" class="icon"><i class="fa fa-bars chr-blanco hvr-naranja"></i></div>
+					<a class="texto-centrado btn-nav hvr-naranja" href="../index.html"><p class="styleTitulo">INICIO</p></a>
+					<a class="texto-centrado btn-nav hvr-naranja" href="./videojuegos.html"><p class="styleTitulo">VIDEOJUEGOS</p></a>
+					<a class="texto-centrado btn-nav hvr-naranja" href="./software.html"><p class="styleTitulo">SOFTWARE</p></a>
+					<a class="texto-centrado btn-nav hvr-naranja" href="./videos.html"><p class="styleTitulo">VÍDEOS</p></a>
+					<a class="texto-centrado seleccionado" href=""><p class="styleTitulo">REGISTRARSE</p></a>
+				</article>
+
+				<article id="desplegable">
+					<a class="hvr-naranja" href="../index.html"><p class="styleTitulo">INICIO</p></a>
+					<a class="hvr-naranja" href="./videojuegos.html"><p class="styleTitulo">VIDEOJUEGOS</p></a>
+					<a class="hvr-naranja" href="./software.html"><p class="styleTitulo">SOFTWARE</p></a>
+					<a class="hvr-naranja" href="./videos.html"><p class="styleTitulo">VÍDEOS</p></a>
+					<a class="bg-blanco" href=""><p class="styleTitulo chr-negro">REGISTRARSE</p></a>
+				</article>
+
+				<script src="../javascript/menuDesplegable.js"></script>
+
+			</nav>
+
+
+
+			<!-- SECTION -->
+			<section id="section" class="col-centr-sb">
+				<main id="contenedor">
+
+					<!-- FORMULARIO CONTENEDOR -->
+					<section id="formulario-contenedor">
+
+						<!-- Cambiar a post -->
+						<form id="formulario" method="post" action="http://www.formular-chef.com/Formular-Chef.cgi">
+							<input type="hidden" name="recipient" value="antoniobanyon.alu@iespacomolla.es">
+
+
+							<!-- NOMBRE requerido -->
+							<section class="campo">
+								<section>
+									<article class="label campo-label">
+										<label class="textoRelevante" for="nombre">Nombre de usuario</label><span class="requerido">*</span>
+									</article>
+
+									<article class="input">
+										<input id="nombre" class="borde input-texto" type="text" name="nombre" placeholder="Nombre de usuario" title="Nombre de usuario" size="30" autofocus required>
+									</article>
+								</section>
+							</section>
+
+
+							<!-- CORREO requerido -->
+							<section class="campo">
+								<article class="label campo-label">
+									<label class="textoRelevante" for="correo">Correo electrónico</label><span class="requerido">*</span>
+								</article>
+
+								<article class="input">
+									<input id="correo" class="borde input-texto" type="email" name="correo" placeholder="Correo electrónico" title="Correo electrónico" size="30" required>
+								</article>
+							</section>
+
+
+							<!-- CONTRASEÑA requerido -->
+							<section class="campo">
+								<article class="label campo-label">
+									<label class="textoRelevante" for="contrasena">Contraseña</label><span class="requerido">*</span>
+								</article>
+
+								<article class="input">
+									<input id="contrasena" class="borde input-texto" type="password" name="contrasena" placeholder="Contraseña" title="Contraseña" maxlength="20" size="30" pattern=".{8,20}" autocomplete="off" required>
+									<br>
+									<small>Número de carácteres entre 8 y 20</small>
+								</article>
+							</section>
+
+
+							<!-- CONFIRMAR CONTRASEÑA requerido -->
+							<section class="campo">
+								<article class="label campo-label">
+									<label class="textoRelevante" for="confContrasena">Confirmar contraseña</label><span class="requerido">*</span>
+								</article>
+
+								<article class="input">
+									<input id="confContrasena" class="borde texto-input" type="password" name="confContrasena" placeholder="Confirmar Contraseña" title="Confirmar contraseña" maxlength="20" size="30" pattern=".{8,20}" autocomplete="off" required>
+								</article>
+							</section>
+
+								<article class="label campo-label">
+								</article>
+
+								<article class="input">
+								</article>
+
+
+							<!-- CUMPLEAÑOS -->
+							<section class="campo">
+								<article class="label campo-label">
+									<label class="textoRelevante" for="cumpleanios">Cumpleaños</label>
+								</article>
+
+								<article class="input">
+									<input id="cumpleanios" type="date" name="fechaNacimiento" size="30" title="Fecha de nacimiento">
+								</article>
+							</section>
+
+
+							<!-- GÉNERO -->
+							<section class="campo">
+								<article class="label campo-label">
+									<label class="textoRelevante" for="genero">Género</label>
+								</article>
+
+								<article class="input">
+									<select id="genero">
+										<option value="noInformar">Prefiero no informar</option>
+										<option value="femenino">Femenino</option>
+										<option value="masculino">Masculino</option>
+										<option value="noBinario">No binario</option>
+									</select>
+								</article>
+							</section>
+
+
+							<!-- COMENTARIO -->
+							<section class="campo">
+								<article class="label campo-label">
+									<label class="textoRelevante" for="comentario">Comentario</label>
+								</article>
+
+								<article class="input">
+									<textarea id="comentario" class="borde input-texto" name="comentario" maxlength="500" placeholder="¿Qué es lo que mas te gusta de GNU/Linux?" rows="5" cols="26" title="Opinión sobre GNU/Linux"></textarea>
+								</article>
+							</section>
+
+							<article class="label">
+							</article>
+
+							<article class="input">
+							</article>
+
+
+							<!-- ENVIAR Y BORRAR -->
+							<section class="campo">
+								<section class="input">
+
+									<article class="align-right">
+										<input class="bg-naranja chr-blanco textoRelevante hvr-naranja" type="submit" value="Registrarse">
+									</article>
+
+								</section>
+							</section>
+
+
+							<article>
+								<small class="mailto"><a href="mailto:antoniobanyon.alu@iespacomolla.es">¿Necesitas ayuda? Envíame un correo</a></small>
+							</article>
+
+						</form>
+
+					</section>
+				</main>
+			</section>
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer" class="bg-naranja col-centr-sb">
+
+				<!-- ARRIBA -->
+				<article>
+					<a class="centrado" href="">
+						<img id="flechaArriba" src="../imagenes/iconos/flecha_arriba.png" alt="volver arriba" title="Volver arriba">
+					</a>
+				</article>
+
+				<!-- REDES SOCIALES -->
+				<section id="rrss" class="">
+					<a href="https://www.facebook.com/" target="_blank">
+						<img src="../imagenes/rrss/facebook.png" alt="facebook" title="Facebook">
+					</a>
+
+					<a href="https://github.com/" target="_blank">
+						<img src="../imagenes/rrss/github.png" alt="github" title="Github">
+					</a>
+
+					<a href="https://www.instagram.com/" target="_blank">
+						<img src="../imagenes/rrss/instagram.png" alt="instagram" title="Instagram">
+					</a>
+
+					<a href="https://reddit.com" target="_blank">
+						<img src="../imagenes/rrss/reddit.png" alt="mastodon" title="Mastodon">
+					</a>
+
+					<a href="https://twitter.com/explore" target="_blank">
+						<img src="../imagenes/rrss/twitter.png" alt="twitter" title="Twitter">
+					</a>
+				</section>
+
+
+				<!-- ENLACES -->
+				<section id="enlaces" class="width-100">
+					<article class="texto-centrado"> 
+						<a class="enlace" href="">QUIENES SOMOS</a> 
+					</article>
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="">AVISO LEGAL</a> 
+					</article>
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="./licencia.html" target="_blank">LICENCIA</a> 
+					</article>
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="">POLÍTICA DE COOKIES</a> 
+					</article> 
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="./html/formulario.html">CONTACTO</a> 
+					</article>
+				</section>
+
+
+				<!-- copyright -->
+				<article class="chr-blanco">
+					<small>AMANECER LINUX © 2020</small>
+				</article>
+
+			</footer>
+		</main>
+	</body>
+</html>

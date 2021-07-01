@@ -1,0 +1,20 @@
+/* HEADER
+ --------------------*/
+#header {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+/* FOOTER
+ --------------------*/
+#footer {
+}
+
+#enlaces {
+	flex-direction: row;
+}
+
+.guion {
+	display: inline-block;
+}

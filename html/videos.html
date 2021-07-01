@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Vídeos, Amanecer Linux</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Antonio Bañón Serrano">
+		<meta name="description" content="Página principal de Amanecer Linux">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="../css/fonts.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/animaciones.css">
+		<link rel="stylesheet" href="../css/paginas/classes.css">
+		<link rel="stylesheet" href="../css/videos/pequenio.css">
+		<link rel="stylesheet" media="screen and (min-width: 576px)" href="../css/videos/mediano.css">
+		<link rel="stylesheet" media="screen and (min-width: 992px)" href="../css/videos/grande.css">
+		<link rel="shortcut icon" type="image/ico" href="../imagenes/logo/favicon_sinfondo.ico">
+	</head>
+
+	<body>
+		<!-- MAIN -->
+		<main class="bg-blanco">
+
+			<!-- HEADER -->
+			<header id="header">
+
+				<figure>
+					<a href="">
+						<img class="width-100" src="../imagenes/logo/AL_logo_smaller.png" alt="Amanecer Linux" title="Amanecer Linux">
+					</a>
+				</figure>
+
+				<!-- buscador -->
+				<form id="buscar">
+					<input id="busqueda" type="text" placeholder="Buscar...">
+				</form>
+
+			</header>
+
+
+
+			<!-- NAV 
+			Páginas que necesito -->
+			<nav id="nav" class="bg-naranja">
+
+				<article id="navLista">
+					<div id="icono" class="icon"><i class="fa fa-bars chr-blanco hvr-naranja"></i></div>
+					<a class="texto-centrado btn-nav hvr-naranja" href="../index.html"><p class="styleTitulo">INICIO</p></a>
+					<a class="texto-centrado btn-nav hvr-naranja" href="./videojuegos.html"><p class="styleTitulo">VIDEOJUEGOS</p></a>
+					<a class="texto-centrado btn-nav hvr-naranja" href="./software.html"><p class="styleTitulo">SOFTWARE</p></a>
+					<a class="texto-centrado seleccionado" href=""><p class="styleTitulo">VÍDEOS</p></a>
+					<a class="texto-centrado btn-nav hvr-naranja" href="./formulario.html"><p class="styleTitulo">REGISTRARSE</p></a>
+				</article>
+
+				<article id="desplegable">
+					<a class="hvr-naranja" href="../index.html"><p class="styleTitulo">INICIO</p></a>
+					<a class="hvr-naranja" href="./videojuegos.html"><p class="styleTitulo">VIDEOJUEGOS</p></a>
+					<a class="hvr-naranja" href="./software.html"><p class="styleTitulo">SOFTWARE</p></a>
+					<a class="bg-blanco" href=""><p class="styleTitulo chr-negro">VIDEOS</p></a>
+					<a class="hvr-naranja" href="./formulario.html"><p class="styleTitulo">REGISTRARSE</p></a>
+				</article>
+
+				<script src="../javascript/menuDesplegable.js"></script>
+
+			</nav>
+
+
+
+			<!-- ASIDE
+			Solamente lo escondo en el viewport pequeÃ±o -->
+			<aside id="aside">
+
+				<section>
+					<form id="login" method="get" action="http://www.formular-chef.com/Formular-Chef.cgi">
+						<input type="hidden" name="recipient" value="antoniobanyon.alu@iespacomolla.es">
+						<input id="correo" class="borde input-texto" type="email" name="correoLogin" placeholder="Correo electrónico">
+						<input id="contrasena" class="borde input-texto" type="password" name="contrasenaLogin" placeholder="Contraseña">
+						<input class="bg-naranja chr-blanco hvr-naranja textoRelevante" type="submit" value="Iniciar sesión">
+					</form>
+				</section>
+
+
+				<!-- Noticias Populares Título -->
+				<article id="noticiasPopularesTitulo">
+					<h6 id="notPopTitulo" class="texto-centrado chr-blanco">NOTICIAS POPULARES</h6>
+				</article>
+
+
+				<!-- Noticias Populares -->
+				<section id="noticiasPopulares">
+					
+					<!-- noticia -->
+					<article class="noticia">
+						<figure>
+							<a href="">
+								<img src="../imagenes/noticias/half-life2_aside_100x63.jpg" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">HALF-LIFE 3 SALDRÁ SOLO EN LINUX</a></h6>
+							<small>30 de octubre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+					<hr>
+
+					<!-- noticia -->
+					<article class="noticia">
+						<figure> 
+							<a href="">
+								<img src="../imagenes/noticias/windows7_aside_100x63.jpg" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">WINDOWS 7 SE QUEDA SIN SOPORTE</a></h6>
+							<small>7 de octubre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+					<hr>
+
+					<!-- noticia -->
+					<article class="noticia">
+						<figure> 
+							<a href="">
+								<img src="../imagenes/noticias/minecraft_aside_100x63.jpg" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">MINECRAFT DEJA SIN SOPORTE A WINDOWS 10</a></h6>
+							<small>25 de septiembre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+					<hr>
+
+					<!-- noticia -->
+					<article class="noticia">
+						<figure> 
+							<a href="">
+								<img src="../imagenes/noticias/windows98_aside_100x63.jpg" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">MICROSOFT ANUNCIA WINDOWS 98</a></h6>
+							<small>4 de septiembre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+					<hr>
+
+					<!-- noticia -->
+					<article class="noticia">
+						<figure> 
+							<a href="">
+								<img src="../imagenes/noticias/vim_aside_100x63.png" alt="Noticia aside">
+							</a>
+						</figure>
+						<article class="noticiaTexto">
+							<h6><a class="enlace" href="">VIM 9</a></h6>
+							<small>2 de septiembre, 2019</small>
+						</article>
+					</article> <!-- final noticia -->
+
+				</section>
+			</aside>
+
+
+
+			<!-- SECTION -->
+			<section id="section" class="col-centr-sb">
+
+				<section id="videos">
+
+					<article class="seccion campo textoRelevante">
+						<h2>¿QUÉ ES GNU/LINUX?</h2>
+					</article>
+
+					<article class="seccion campo">
+						<p>
+							GNU/Linux es un sistema operativo libre mal llamado Linux. Tal como explica Richard Stallman en el siguente
+							video, el sistema operativo es GNU mientras que Linux es el kernel.
+						</p>
+					</article>
+
+					<article class="campo centrado video">
+						<video controls>
+							<source src="../videos/whatis_gnu-linux.ogv">
+							<source src="../videos/whatis_gnu-linux.mp4">
+							Tu navegador no soporta los videos
+						</video>
+					</article>
+
+					<article class="seccion campo">
+						<p>
+							Como bien explica en el vídeo anterior, este sistema operativo no fue creado porque sí, fue creado con el
+							propósito de ser un reemplazo <b>libre</b> para Unix. Y recalco la palabra libre porque el motivo por el cual
+							Richard Stallman comenzó el Proyecto GNU, fue para preservar el software libre ante un mundo cada vez más
+							privativo. En el siguente video explica más en detallo porque es tán importante usar programas libres
+							antes que programas privativos.
+						</p>
+					</article>
+
+					<article class="campo centrado video">
+						<video controls>
+							<source src="../videos/fs_and_4freedoms.ogv">
+							<source src="../videos/fs_and_4freedoms.mp4">
+							Tu navegador no soporta los videos
+						</video>
+					</article>
+
+					<article class="seccion campo">
+						<p>
+							Ya habréis podido observar la importancia de el software libre en nuestra vida diaria, pero esto no se queda
+							solamente aquí. ¡El software libre es importante en la educación! En los colegios, normalmente nos enseñan a
+							usar Windows, Microsoft Word, Excel... y muchos programas privativos que no respetan tu libertad en absoluto
+							ni tampoco permiten que, como explica RMS en el siguiente vídeo, los estudiantes con ganas de aprender programación
+							puedan ver el código del programa y aprender de este.
+						</p>
+					</article>
+
+					<article class="campo centrado video">
+						<video controls>
+							<source src="../videos/fs_in_schools.ogv">
+							<source src="../videos/fs_in_schools.mp4">
+							Tu navegador no soporta los videos
+						</video>
+					</article>
+
+					<article class="seccion campo">
+						<p>
+							¿Sabías que el software libre además tiene una canción? Pues sí. Fue compuesta por Richard Stallman usando un ritmo de
+							7/8. Aquí te dejo un vídeo de Richard cantándola en directo.
+						</p>
+					</article>
+
+					<article class="campo hackerFree">
+						<article class="centrado campo video">
+							<video controls>
+								<source src="../videos/fs_song.ogv">
+								<source src="../videos/fs_song.mp4">
+								Tu navegador no soporta los videos
+							</video>
+						</article>
+
+						<article class="centrado">
+							<em class="letra">
+								Join us now and share the software;<br>
+								You'll be free, hackers, you'll be free.<br>
+								Join us now and share the software;<br>
+								You'll be free, hackers, you'll be free.<br>
+								<br>
+								Hoarders can get piles of money,<br>
+								That is true, hackers, that is true.<br>
+								But they cannot help their neighbors;<br>
+								That's not good, hackers, that's not good.<br>
+								<br>
+								When we have enough free software<br>
+								At our call, hackers, at our call,<br>
+								We'll kick out those dirty licenses<br>
+								Ever more, hackers, ever more.<br>
+								<br>
+								Join us now and share the software;<br>
+								You'll be free, hackers, you'll be free.<br>
+								Join us now and share the software;<br>
+								You'll be free, hackers, you'll be free.<br>
+							</em>
+						</article>
+					</article>
+
+					<article class="seccion campo">
+						<p>
+							Y por si fuera poco, la comunidad ha hecho sus propias versiones de la canción, aquí dejo algunas de ellas:
+						</p>
+					</article>
+
+					<article class="campo">
+						<p class="audio-titulo">
+							Versión metal:
+						</p>
+						<audio controls>
+							<source src="../audios/fs_song_metal.ogg">
+							<source src="../audios/fs_song_metal.mp3">
+							Tu navegador no soporta los audios
+						</audio>
+					</article>
+
+					<article class="campo">
+						<p class="audio-titulo">
+							Versión rítmica:
+						</p>
+
+						<audio controls>
+							<source src="../audios/fs_song_rythmic.ogg">
+							<source src="../audios/fs_song_rythmic.mp3">
+							Tu navegador no soporta los audios
+						</audio>
+					</article>
+
+					<article class="campo">
+						<p class="audio-titulo">
+							Versión rock:
+						</p>
+						<audio controls>
+							<source src="../audios/fs_song_rock.ogg">
+							<source src="../audios/fs_song_rock.mp3">
+							Tu navegador no soporta los audios
+						</audio>
+					</article>
+
+				</section>
+			</section>
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer" class="bg-naranja col-centr-sb">
+
+				<!-- ARRIBA -->
+				<article>
+					<a class="centrado" href="">
+						<img id="flechaArriba" src="../imagenes/iconos/flecha_arriba.png" alt="volver arriba" title="Volver arriba">
+					</a>
+				</article>
+
+				<!-- REDES SOCIALES -->
+				<section id="rrss" class="">
+					<a href="https://www.facebook.com/" target="_blank">
+						<img src="../imagenes/rrss/facebook.png" alt="facebook" title="Facebook">
+					</a>
+
+					<a href="https://github.com/" target="_blank">
+						<img src="../imagenes/rrss/github.png" alt="github" title="Github">
+					</a>
+
+					<a href="https://www.instagram.com/" target="_blank">
+						<img src="../imagenes/rrss/instagram.png" alt="instagram" title="Instagram">
+					</a>
+
+					<a href="https://reddit.com" target="_blank">
+						<img src="../imagenes/rrss/reddit.png" alt="mastodon" title="Mastodon">
+					</a>
+
+					<a href="https://twitter.com/explore" target="_blank">
+						<img src="../imagenes/rrss/twitter.png" alt="twitter" title="Twitter">
+					</a>
+				</section>
+
+
+				<!-- ENLACES -->
+				<section id="enlaces" class="width-100">
+					<article class="texto-centrado"> 
+						<a class="enlace" href="">QUIENES SOMOS</a> 
+					</article>
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="">AVISO LEGAL</a> 
+					</article>
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="./licencia.html" target="_blank">LICENCIA</a> 
+					</article>
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="">POLÍTICA DE COOKIES</a> 
+					</article> 
+					<article class="guion chr-blanco"> - </article>
+					<article class="texto-centrado"> 
+						<a class="enlace" href="./html/formulario.html">CONTACTO</a> 
+					</article>
+				</section>
+
+
+				<!-- copyright -->
+				<article class="chr-blanco">
+					<small>AMANECER LINUX © 2020</small>
+				</article>
+
+			</footer>
+		</main>
+	</body>
+</html>

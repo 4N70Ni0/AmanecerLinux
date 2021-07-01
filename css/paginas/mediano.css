@@ -1,0 +1,52 @@
+/* HEADER
+ --------------------*/
+#buscar {
+	grid-column: 1 / 3;
+	grid-row: 1 / 2;
+	width: 350px;
+}
+
+/* NAV
+ --------------------*/
+
+/* Páginas */
+#navLista {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#navLista a {
+	display: inline-block;
+	width: 160px;
+}
+
+#navLista p {
+	font-size: 100%;
+}
+
+#navLista > :not(a) {
+	display: none;
+}
+
+#desplegable {
+	display: none;
+}
+
+/* Buscar
+#buscar {
+	width: 180px;
+} */
+
+/* SECTION
+ --------------------*/
+
+#articulos section[class^=articulo] {
+	width: 65%;
+}
+
+.btn-segLey {
+	margin-top: 30px;
+	padding: 10px;
+}

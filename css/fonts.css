@@ -1,0 +1,32 @@
+/* Fuente de letra */
+@font-face {
+	font-family: "importante";
+	src: url("./fuentes/AzureoN.ttf");
+}
+@font-face {
+	font-family: "texto";
+	src: url("./fuentes/Muddy.otf");
+}
+
+
+/* Texto */
+* {
+	font-family: "texto";
+}
+
+.btn-segLey, .btn-numPag, input[type=submit] {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+/* Texto relevante */
+#navLista p, .articuloTexto h2 a, .noticiaTexto h6 a, #notPopTitulo, #enlaces .enlace, .textoRelevante, .styleTitulo {
+	font-family: "importante";
+	font-weight: bold;
+}
+#navLista p {
+	font-size: 20px;
+}
+.noticiaTexto h6 a {
+	font-size: 15px;
+}
